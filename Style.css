@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
+
+.head-btn .counter button, .head-btn .counter h1{
+    width:20%;
+    font-size:50px;
+}
+body{
+    background: url(img/bg.png) no-repeat center center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin:0;
+}
+.counter button{
+    width:24%;
+    height:100px;
+    text-align:center;
+    color:black;
+    font-size:20px;
+    border:none;
+    background-color:transparent;
+}
+.head-btn .counter .players{
+    width:100%;
+  }
+  
+  .head-btn .counter .copy{
+    width:100%;
+  }
+.copied {
+    position: fixed;
+    z-index: 110;
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s;
+  }
+  .init .hd .logo-float img{
+    max-width:80%;
+    min-width: 20%;
+    margin: 0 auto;
+    animation: float 2s infinite;
+    margin-top:20px;
+    display:grid;
+  }
+  :root {
+    --primary: #9FB3C8;
+    --primary-dark: #334E68;
+    --white: #F0F4F8;
+    --white-dark: #D9E2EC;
+    --footer: #334E68;
+    --footer-dark: #243B53;
+  }
+  
+
+  *{
+    font-family: 'Dongle', sans-serif;
+  }
+
+body{
+    margin:0;
+    text-transform: uppercase;
+}
+.copy, .players{
+    display:inline-block;
+}
+.social{
+    text-align:center;
+  }
+  
+  .social i{
+    margin:10px;
+    color:white;
+    font-size:25px;
+  }
+  .animate__animated .animate__fadeInLeftBig {
+    --animate-duration: 2s;
+  }
+
+  .animate__animated .animate__fadeInUpBig {
+    --animate-duration: 2s;
+  }
+
+  .animate__animated, .animate__fadeInRightBig {
+    --animate-duration: 2s;
+  }
+
+  #particles-js {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: none;
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    display: block;
+	overflow: hidden;
+}
+.copied {
+    position: fixed;
+    z-index: 110;
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s;
+  }
+  
+  
+    
+    .card {
+      display: block;
+      position: absolute;
+      width: 20%;
+      text-align: center;
+      border-radius: 6px;
+      background: var(--white);
+      left: 40%;
+      top: 38vh;
+      z-index: 111;
+      padding-top: 25px;
+      opacity: 1;
+      transition: all .3s;
+    }
+    
+    .card > h1 {
+      font-size: 40px;
+      color: var(--primary-dark);
+    }
+    
+    .card > h2 {
+      font-size: 30px;
+      position: relative;
+      font-weight: 40;
+      color: var(--primary-dark);
+      top: 20px;
+    }
+    
+    .card > .close {
+      position: relative;
+      display: block;
+      background: var(--white-dark);
+      top: 50px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
+    }
+    
+    .card > .close .btn {
+      width: 100px;
+      font-size:30px;
+      padding: 5px;
+      border-radius:20px;
+      border:none;
+    }
+    
+    .card > .close .btn:hover {
+      border-bottom: 3px solid rgba(0,0,0,0.2);
+      top: 0px;
+    }
+    @media screen and (max-width: 767px) {
+        .card {
+          left: 27%;
+        }
+        .card > .close .btn {
+          left: 26%;
+          top: -5px;
+        }
+        .card > .close .btn:hover {
+          left: 26%;
+          top: -8px;
+        }
+    }
+    .head-btn .counter .copy{
+        width:100%;
+      }
+
+    div.menu{
+      position: absolute;
+      color: white;
+      text-align: center;
+      width: 100%;
+      height: auto;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%)
+    }
+    a{
+      text-decoration: none;
+      color: inherit;
+    }
+    li.menu-list{
+      display: inline;
+      text-transform: capitalize;
+      font-size: 50px;
+      font-family: 'Fira sans' sans-serif;
+      margin: 0px 30px 0px 30px;
+      border-bottom: 0px solid #ffca28;
+      transition: .1s;
+      transition-timing-function: cubic-bezier(.51,.23,.74,1.52);
+    }
+    li.menu-list:hover{
+      border-bottom: 10px solid #ffca28;
+      color: #ffca28;
+      transition: .1s;
+      transition-timing-function: cubic-bezier(.51,.23,.74,1.52);
+    }
+
+  @keyframes float {0% {transform: translate(0px,0px);}50% {transform: translate(0px,-40px);}100% {transform: translate(0px,0px);}}
+  
